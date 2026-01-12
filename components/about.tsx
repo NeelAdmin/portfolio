@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  { name: "React", imgSrc: "/react.png" },
+  { name: "React", imgSrc: "/REACT.png" },
   { name: "Node.js", imgSrc: "/nodejs.png" },
   { name: "MongoDB", imgSrc: "/mongo (2).png" },
   { name: "Express", imgSrc: "/expressjs.png", width: 48, height: 51 },

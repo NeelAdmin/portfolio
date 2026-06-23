@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Geist, Geist_Mono, Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
+import Script from "next/script"
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" })
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" })
@@ -43,6 +44,7 @@ export default function RootLayout({
         {children}
         <Analytics />
       </body>
+      <Script src="https://staging-widget.braoza.com/v1/assets/static-pages/injector.js" type="module" data-account="mqqdw4gqx7"></Script>
     </html>
   )
 }
